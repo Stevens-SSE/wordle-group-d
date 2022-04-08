@@ -1,1 +1,7 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7540045&assignment_repo_type=AssignmentRepo)
+# Wordle-Game
+This is a modular python implementation of the popular wordle game
+The user is given 6 attempts to guess the word 
+This program consists of 3 modules each of which is used to make the wordle game
+This also implements the unit testing feature where we check the working and values of the program to verify its correctness
+This program also crates the gameplay.log file and a ValidWords.txt file to keep track of gameplay
+Also has a wordle helper and Wordle solver methods which help solve the wordle in the quickest way possible
