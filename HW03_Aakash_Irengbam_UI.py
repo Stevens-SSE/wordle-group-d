@@ -66,7 +66,7 @@ class WordCorrect():
             print("Correct Word function not working")
     
     
-def LoggingToFile(ToWrite,type):
+def LoggingToFile(ToWrite,type):              #Log to file
     try:
         f = open("gameplay.log", "a+")
         f.write(f"{type}: {ToWrite}\n")

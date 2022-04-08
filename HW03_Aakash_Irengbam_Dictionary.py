@@ -32,7 +32,7 @@ def checking(y):                                                #check if the us
     except:
         print("checking not working")
     
-def removeWord(word):
+def removeWord(word):                                             #remove duplicate word
     with open("wordListNew.txt", "r") as f:
         lines = f.readlines()
     with open("wordListNew.txt", "w") as f:

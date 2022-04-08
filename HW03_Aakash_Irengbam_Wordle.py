@@ -1,7 +1,7 @@
 from pickletools import stringnl_noescape
 
 import HW03_Aakash_Irengbam_Dictionary   #import the other modules to use their functions
-import HW03_Aakash_Irengbam_UI
+import HW03_Aakash_Irengbam_UI           #inport UI module
 
 
 def main():                                                       #define the main function
