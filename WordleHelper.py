@@ -37,4 +37,4 @@ def rankedWords(correctLetters, incorrectLetters):
     return newList
 
 #Checking to see if the function is working right
-# print(rankedWords([],['s','a','l','e']))
+#print(rankedWords([],['s','a','l','e']))
