@@ -1,3 +1,5 @@
+from multiprocessing.dummy import Array
+from numpy import array
 import Aakash_Irengbam_Dictionary
 class Length():
     def __init__(self, guess):
@@ -66,7 +68,7 @@ class WordCorrect():
             print("Correct Word function not working")
     
     
-def LoggingToFile(ToWrite,type):
+def LoggingToFile(ToWrite,type) -> None:
     try:
         f = open("gameplay.log", "a+")
         f.write(f"{type}: {ToWrite}\n")
@@ -74,7 +76,7 @@ def LoggingToFile(ToWrite,type):
     except:
         print("LoggingToFile not working")
 
-def CorrectPos(RightWord,guess):
+def CorrectPos(RightWord,guess) -> Array:
     CorrectPosition = 0
     IncorrectGuess = 0
     IncorrectPosition = 0
@@ -104,7 +106,6 @@ def CorrectPos(RightWord,guess):
                         appraisal[index] = "'"
                         IncorrectPosition+=1
 
-                    # print(" "*33 + ''.join(appraisal))
     return ''.join(appraisal)
     
 class Interface():
@@ -132,6 +133,7 @@ class Interface():
             Authorised = Author(guess)
             WC = WordCorrect(guess, self.RightWord)
             if(LengthWord.WordLength() == False):
+                LoggingToFile(attempt, "Attempts Unsuccesful after trying:")
                 quit()
             if(Punt.GuessedWord() == True):          
                 print("This was a previous guess please try again")
@@ -141,6 +143,7 @@ class Interface():
                     continue
                 elif (WC.CorrectWord() == True):           
                     print("This is the correct word")
+                    LoggingToFile(attempt, "Attempts Succesful after trying:")
                     Win+=1
                     break
                 else:                              #to check the condtions on if and where the entered letter locations match with the correct word
@@ -183,21 +186,14 @@ class Interface():
         print("Correct position: ", CorrectPosition, "\n")
         print("Incorrect guess: ", IncorrectGuess, "\n")
         print("Win count", Win)
-        LoggingToFile(attempt, "Attempt")
+        LoggingToFile(attempt, "Attempts Taken")
         LoggingToFile(Win, "Win")
         
-    def userinterfaceSecond(self,betterguess):
+    def userinterfaceSecond(self,betterguess) ->array:
     
         GuessedWordList = []     #To keep track of the words guessed by the user and notify if the same word has been guessed before
-        # attempt = 0
-        # CorrectPosition = 0
-        # IncorrectGuess = 0
-        # IncorrectPosition = 0
-        # Win = 0
-        # LoggingToFile(self.RightWord, "RightWord")
-        # while(attempt<6):         #To limit the number of attempts of the user to 6
         appraisal = []
-        guess = betterguess    #jhTake the input from the user
+        guess = betterguess    #Take the input from the user
         LengthWord = Length(guess)
         Punt = Correct(guess, GuessedWordList)
         Authorised = Author(guess)
@@ -236,19 +232,4 @@ class Interface():
                                 letter_counts[guess[index]] -= 1
                                 appraisal[index] = "'"
 
-                    # print(" "*33 + ''.join(appraisal))
-            # attempt+=1
-        # GuessedWordList.append(guess)
-        # LoggingToFile(guess, "Guess")
         return appraisal
-            #WriteToFile(RightWord)
-        # else:                                                                #if the number of attempts have exceeded 6 enter the condition
-        #     print("Failed in 6 tries no more tries left, try again next time")
-        # print("The game statistics were as follows:\n")
-        # print("Attempts: ", attempt, "\n")
-        # print("Incorrect position: ",IncorrectPosition, "\n")
-        # print("Correct position: ", CorrectPosition, "\n")
-        # print("Incorrect guess: ", IncorrectGuess, "\n")
-        # print("Win count", Win)
-        # LoggingToFile(attempt, "Attempt")
-        # LoggingToFile(Win, "Win")

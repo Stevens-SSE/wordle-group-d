@@ -1039,6 +1039,7 @@ shame
 shape
 share
 shark
+sharp
 sheep
 sheer
 sheet

@@ -8,7 +8,7 @@ def main():                                                       #define the ma
     RightWord = []                                                       
     RightWord = Aakash_Irengbam_Dictionary.randomword()      #call to the dictionary to generate the random word
     Aakash_Irengbam_Dictionary.removeWord(RightWord)
-    #HW03_Aakash_Irengbam_UI.userinterface(RightWord)              #send the generated random word to the User Interface
+    #Aakash_Irengbam_UI.userinterface(RightWord)              #send the generated random word to the User Interface
     Inter = Aakash_Irengbam_UI.Interface(RightWord)
     Inter.userinterface()
     

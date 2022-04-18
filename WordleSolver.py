@@ -1,20 +1,12 @@
-import HW03_Aakash_Irengbam_Dictionary as dict   #import the other modules to use their functions
-import HW03_Aakash_Irengbam_UI as UI
+import Aakash_Irengbam_Dictionary as dict   #import the other modules to use their functions
+import Aakash_Irengbam_UI as UI
 import WordleHelper as help
 
 
-# f = open("/Users/aakashirengbam/Downloads/words.txt", "r")       #open the text file
-# wordlist = f.read()                                              #read the text file
-# wordslist = wordlist.split("\n")
-# f.close()
-# f = open("HelperWordList.txt", "w")
-# for x in wordslist:
-#     if len(x) == 5:                                              #only read text file if the length of the letter is 5 words
-#         f.write(f"{x.lower()}\n")
-# f.close()
 Rnd = dict.randomword()
 UI = UI.Interface(Rnd)
-def Solver(Betterattempts):
+#This function uses the previous WordleHelper module to find the most likely letters then guess the word in the lowest number of attempts
+def Solver(Betterattempts) -> None:
     BadLetters = []
     GoodLetters = []
     AutoGuessedList = []
@@ -32,7 +24,6 @@ def Solver(Betterattempts):
                 print("This is the correct word")
             i = 0
             while (i < 5):
-                #BufferGuess = BetterGuessList[Betterattempts-1]
                 if(Pos[i] == " " or Pos[i] == "'") and not GoodLetters.__contains__(initialguess[i]):
                     GoodLetters.append(initialguess[i])
                 else:
@@ -46,7 +37,6 @@ def Solver(Betterattempts):
                     BadLetters.remove(BadLetters_Copy[j])
                 j += 1
             BufferList = help.rankedWords(GoodLetters,BadLetters)
-            #BetterGuessList.append(initialguess)
             if(len(BufferList) > 0):
                 initialguess = BufferList[0]
             Betterattempts+=1

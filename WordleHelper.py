@@ -1,4 +1,5 @@
 import csv
+from typing import List
 rankDict = {}
 with open('wordRank.csv', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
@@ -6,8 +7,8 @@ with open('wordRank.csv', newline='') as csvfile:
         rankDict[row[0].split(',')[0]] = row[1].split(',')[0]
 rankDict.pop('Rank')
 
-
-def rankedWords(correctLetters, incorrectLetters):
+#This function takes all of the correct and incorrect letters and then writes all of the most likely words into a new list
+def rankedWords(correctLetters, incorrectLetters) -> List:
     myList = []
     defaultList = []
     if correctLetters == None and incorrectLetters == None:

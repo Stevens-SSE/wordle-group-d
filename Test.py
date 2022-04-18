@@ -1,7 +1,7 @@
-import HW03_Aakash_Irengbam_Dictionary as Dictionary        #import the other modules to use their functions
-import HW03_Aakash_Irengbam_Wordle as Wordle
-import HW03_Aakash_Irengbam_UI as UI
-import HW07_Aakash_Irengbam_Collections as c
+import Aakash_Irengbam_Dictionary as Dictionary        #import the other modules to use their functions
+import Aakash_Irengbam_Wordle as Wordle
+import Aakash_Irengbam_UI as UI
+import Aakash_Irengbam_Collections as c
 import unittest                               #import the unittest
 from unittest.mock import patch
 
