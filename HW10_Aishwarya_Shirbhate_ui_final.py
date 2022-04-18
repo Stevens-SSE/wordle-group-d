@@ -74,6 +74,7 @@
 # end }
 # call wordle function
 
+from curses.ascii import isalpha
 import HW10_Aishwarya_Shirbhate_dictionary_final as Module_dictionary
 import HW10_Aishwarya_Shirbhate_wordle_final as Module_wordle
 import HW10_Aishwarya_Shirbhate_occurence_stats_final as Module_stats
@@ -133,21 +134,21 @@ class UI:
         :return history
         """
         try:
-            symbol_list = {'~', ':', "'", '+', '[', '\\', '@', '^', '{', '%', '(', '-', '"', '*', '|', ',', '&', '<',
-                           '`',
-                           '}',
-                           '.', '_', '=', ']', '!', '>', ';', '?', '#', '$', ')', '/', ' ', '1', '2', '3', '4', '5',
-                           '6',
-                           '7',
-                           '8',
-                           '9',
-                           '0'}  # symbol list that needs to be excluded
+            # symbol_list = {'~', ':', "'", '+', '[', '\\', '@', '^', '{', '%', '(', '-', '"', '*', '|', ',', '&', '<',
+            #                '`',
+            #                '}',
+            #                '.', '_', '=', ']', '!', '>', ';', '?', '#', '$', ')', '/', ' ', '1', '2', '3', '4', '5',
+            #                '6',
+            #                '7',
+            #                '8',
+            #                '9',
+            #                '0'}  # symbol list that needs to be excluded
             # array for user input
             user_inputs = []
             maximum_guesses = 0
             correct_guess = False
-            self.good = []
-            self.bad = []
+            self.good = []  # list for good words with letters in actual answers
+            self.bad = []  # list for bad words with letters not in actual answers
             get_columns = itemgetter('rank', 'words')
             with open('wordRank.csv', 'r') as csvfile:
                 reader = csv.DictReader(csvfile.readlines()[0:])
@@ -160,14 +161,17 @@ class UI:
                 guess = input("Please enter a 5 letter word and press Enter:")
 
                 if len(guess) == 0:
-                    print("You have now ended the game\n Thank you for playing Wordle\n ")
+                    print(
+                        "You have now ended the game\n Thank you for playing Wordle\n ")
                     self.game_stats()
                     for i in self.history:
                         self.history[i] = 0
-                    self.set_variables("exit", self.number_of_wins, self.history, self.valid_words)
+                    self.set_variables(
+                        "exit", self.number_of_wins, self.history, self.valid_words)
                     # self.check = "exit"
                     break
-                symbol_check = [ele for ele in symbol_list if (ele in guess)]
+                #symbol_check = [ele for ele in symbol_list if (ele in guess)]
+                symbol_check = isalpha(guess)
                 bool_symbolcheck = bool(symbol_check)
                 if len(guess) == 5:
                     if bool_symbolcheck is False:
@@ -186,16 +190,20 @@ class UI:
                                     # self.bad = res[2]
                                     # print("please try these word:", res[0])
 
-                                    solver = wordle_solver.Wordle_Solver(self.rank_list).find_words(c, guess)
+                                    solver = wordle_solver.Wordle_Solver(
+                                        self.rank_list).find_words(c, guess)
                                     self.rank_list = solver
                                     print(solver)
-                                    print("SOLVER RECOMMENDS THIS WORD:", solver[0][1])
+                                    print("SOLVER RECOMMENDS THIS WORD:",
+                                          solver[0][1])
                             else:
                                 print("please provide a valid dictionary word")
                         else:
-                            print("Provided word is used previously. Please enter a new word")
+                            print(
+                                "Provided word is used previously. Please enter a new word")
                     else:
-                        print("Input word contains symbols/characters. Please input words with alphabets only")
+                        print(
+                            "Input word contains symbols/characters. Please input words with alphabets only")
                 else:
                     print("Input word length needs to be 5 alphabets long")
 
@@ -206,18 +214,21 @@ class UI:
                 else:
                     self.number_of_wins[maximum_guesses] = 1
                 self.history["won"] += 1
-                print("Guess Distribution is:", self.number_of_wins)  # displays guess distribution of the game
+                # displays guess distribution of the game
+                print("Guess Distribution is:", self.number_of_wins)
                 self.game_stats()
 
             elif len(guess) == 0:
-                print("Guess Distribution is:", self.number_of_wins)  # displays guess distribution of the game
+                # displays guess distribution of the game
+                print("Guess Distribution is:", self.number_of_wins)
                 print("You have now ended the game\nThank you for playing Wordle\n ")
 
             else:
                 print("You have used up your guesses")
                 print("The correct answer is", answer)
                 self.history["loss"] += 1
-                print("Guess Distribution is:", self.number_of_wins)  # displays guess distribution of the game
+                # displays guess distribution of the game
+                print("Guess Distribution is:", self.number_of_wins)
                 self.game_stats()
 
             logging.info("Input words: " + str(user_inputs))
@@ -238,18 +249,23 @@ class UI:
             lost_games = self.history["loss"]
             won_games = self.history["won"]
             total_games = won_games + lost_games
-            print("total no of games played are:", total_games)  # displays total number of games played
+            # displays total number of games played
+            print("total no of games played are:", total_games)
             if total_games != 0:
                 win_prec = (won_games / total_games) * 100
-                print("winning percentage are:", win_prec)  # displays winning percentage
-                logging.info("\n****************************************************************\n")
+                # displays winning percentage
+                print("winning percentage are:", win_prec)
+                logging.info(
+                    "\n****************************************************************\n")
                 logging.info("Total games played: " + str(total_games))
                 logging.info("\nwin percentage: " + str(win_prec))
                 return total_games, win_prec
             else:
                 win_prec = 0
-                print("winning percentage are:", 0)  # displays winning percentage
-                logging.info("\n****************************************************************\n")
+                # displays winning percentage
+                print("winning percentage are:", 0)
+                logging.info(
+                    "\n****************************************************************\n")
                 logging.info("Total games played: " + str(total_games))
                 logging.info("\nwin percentage: " + str(win_prec))
                 return total_games, win_prec
@@ -262,12 +278,15 @@ class UI:
         """
 
         try:
-            self.set_variables("play", {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}, {"won": 0, "loss": 0}, [])
+            self.set_variables("play", {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}, {
+                               "won": 0, "loss": 0}, [])
 
             while self.check == "play":
-                answer = Module_dictionary.dictionary().func_englishword()  # assign english word to answer
+                # assign english word to answer
+                answer = Module_dictionary.dictionary().func_englishword()
                 if type(answer) == 'NoneType':
-                    raise Exception("not valid word")  # raise exception if file is not present
+                    # raise exception if file is not present
+                    raise Exception("not valid word")
                 if answer not in self.valid_words:
                     self.valid_words.append(answer)
                     self.input_check(answer)

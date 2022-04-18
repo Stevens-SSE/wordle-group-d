@@ -4,16 +4,17 @@ import sys
 from csv import writer
 import HW10_Aishwarya_Shirbhate_utility_final as Module_utility
 import csv
+
+
 class occ_stats:
     def __init__(self):
-        self.occurrence_dict={}
+        self.occurrence_dict = {}
 
     def __str__(self):
         print(self.occurrence_dict)
 
-    def set_variables(self,d):
-        self.occurrence_dict=d
-
+    def set_variables(self, d):
+        self.occurrence_dict = d
 
     def occurrence_stats(self):
         """
@@ -29,41 +30,51 @@ class occ_stats:
 
             self.set_variables({})
             for i in range(97, 123):  # taking  ASCII values of alphabets
-                self.occurrence_dict[chr(i)] = [0, 0, 0, 0, 0]  # initialise dictionary with each alphabet and position list
+                # initialise dictionary with each alphabet and position list
+                self.occurrence_dict[chr(i)] = [0, 0, 0, 0, 0]
 
             try:
-                wordlist = open("5letterwords.txt", "r")  # opens filtered dictionary
+                # opens filtered dictionary
+                wordlist = open("5letterwords.txt", "r")
             except:  # catches error if file is not present
-                print("Error:", sys.exc_info()[0], " no file found with name 5letterwords.txt")
+                print("Error:", sys.exc_info()[
+                      0], " no file found with name 5letterwords.txt")
 
             words = [word for word in wordlist.read().split()]
-            total_words = len(words)  # calculates total number of words in filtered dictionary
+            # calculates total number of words in filtered dictionary
+            total_words = len(words)
 
             # updates occurrence dictionary
             for word in words:
                 for i in range(len(word)):
-                    self.occurrence_dict[word[i]][i] += 1  # updates occurrence dictionary with letter index
+                    # updates occurrence dictionary with letter index
+                    self.occurrence_dict[word[i]][i] += 1
 
             # writes to letterFrequency.csv file
-            with open("letterFrequency.csv", 'a+', newline='') as write_obj:  # opens letterFrequency.csv file
+            # opens letterFrequency.csv file
+            with open("letterFrequency.csv", 'a+', newline='') as write_obj:
                 write_obj.truncate(0)
             for letter in self.occurrence_dict:  # calls csv file write function
-                self.Add_to_freq_file('letterFrequency.csv', [letter] + self.occurrence_dict[letter])
+                self.Add_to_freq_file('letterFrequency.csv', [
+                                      letter] + self.occurrence_dict[letter])
 
             self.Convert_list_to_tuple()  # Prints Converted Tuple
             try:
                 self.Parse_file_to_tuple("letterFrequency.csv")
                 # Prints Parsed file to dictionary of tuples
             except:
-                print("Error:", sys.exc_info()[0], " letterFrequency.csv not found")
+                print("Error:", sys.exc_info()[
+                      0], " letterFrequency.csv not found")
 
             l = self.find_ranks(words, total_words)
 
-            sorted_list = sorted(l.items(), key=lambda x: eval(x[1]), reverse=True)  # Sort words according to the ranks
+            sorted_list = sorted(l.items(), key=lambda x: eval(
+                x[1]), reverse=True)  # Sort words according to the ranks
 
             with open("wordRank.csv", 'a+', newline='') as write_obj:
                 write_obj.truncate(0)
-            self.Add_to_rank_file("wordRank.csv", sorted_list)  # add ranks of words and weights into csv file
+            # add ranks of words and weights into csv file
+            self.Add_to_rank_file("wordRank.csv", sorted_list)
             wordlist.close()
         except:
             print("here")
@@ -85,7 +96,6 @@ class occ_stats:
             # catches error if file is not present
             print("Error:", sys.exc_info()[0], "in Add_to_freq_file function")
 
-
     def Convert_list_to_tuple(self) -> dict:
         """
         Function to convert occurrence dictionary of list to dictionary of tuple
@@ -98,10 +108,10 @@ class occ_stats:
 
             return self.occurrence_dict
         except:
-            print("Error:", sys.exc_info()[0], "in Convert_list_to_tuple function")
+            print("Error:", sys.exc_info()[0],
+                  "in Convert_list_to_tuple function")
 
-
-    def Parse_file_to_tuple(self,file_name) -> dict:
+    def Parse_file_to_tuple(self, file_name) -> dict:
         """
             Function to parse statistics file to dictionary of tuple
             :param file_name:
@@ -109,17 +119,19 @@ class occ_stats:
         """
         try:
             word_list = open(file_name, "r")
-            entries = [word for word in word_list.read().split('\n')]  # opens letterFrequency.csv file
+            # opens letterFrequency.csv file
+            entries = [word for word in word_list.read().split('\n')]
             d = {}
             for entry in entries:
                 l = entry.split(',')
                 if l[0] not in d:
-                    d[l[0]] = tuple([int(i) for i in l[1:]])  # parses dictionary of list as dictionary of tuple in csv file
-
+                    # parses dictionary of list as dictionary of tuple in csv file
+                    d[l[0]] = tuple([int(i) for i in l[1:]])
+            word_list.close()  # file closed
             return d
         except:
-            print("Error:", sys.exc_info()[0], "in Parse_file_to_tuple function")
-
+            print("Error:", sys.exc_info()[0],
+                  "in Parse_file_to_tuple function")
 
     def find_ranks(self, words, n) -> dict:
         """
@@ -143,7 +155,6 @@ class occ_stats:
 
         except:
             print("Error:", sys.exc_info()[0], "in find_ranks function")
-
 
     def Add_to_rank_file(self, file_name, l) -> None:
         """

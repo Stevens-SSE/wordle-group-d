@@ -16,12 +16,12 @@ class Wordle_Helper:
         self.bad = bad
 
     def create_linked_list(self, clue, guess):
-        h = List(0)
-        t = h
+        head = List(0)
+        t = head
         for i in range(5):
             p = List((clue[i], guess[i]))
-            h.next = p
-            h = p
+            head.next = p
+            head = p
         return t.next
 
     def get_good_bad_letters(self, clue, guess):
@@ -36,15 +36,16 @@ class Wordle_Helper:
 
         return good_list, bad_list + self.bad
 
-    def top_fifty(self):
+    def top_fifty(self) -> tuple:
         n = 51
 
         get_columns = itemgetter('rank', 'words')
+        # itemgetter returns a callable object that fetches item from its operand
         with open('wordRank.csv', 'r') as csvfile:
             reader = csv.DictReader(csvfile.readlines()[0:n])
         return [get_columns(row) for row in reader]
 
-    def find_words(self, clue, guess):
+    def find_words(self, clue, guess) -> list:
         head = self.create_linked_list(clue, guess)
         get_columns = itemgetter('rank', 'words')
         words = []
@@ -84,7 +85,3 @@ class Wordle_Helper:
                 if t:  # all 3 checks pass then add
                     r.append(word)
         return r, good, bad
-
-# if __name__ == '__main__':
-# FOR TESTING
-# Wordle_Helper().find_words("```\"\"", "honey")

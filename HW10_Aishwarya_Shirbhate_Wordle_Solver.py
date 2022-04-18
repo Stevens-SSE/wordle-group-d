@@ -5,13 +5,14 @@ from operator import itemgetter
 
 
 class Wordle_Solver:
-    def __init__(self, words):                    #self function for taking in words
+    def __init__(self, words):  # self function for taking in words
         self.words = words
 
-    def find_words(self, clue, guess):
+    def find_words(self, clue, guess) -> list:
+        # itemgetter returns a callable object that fetches item from its operand
         get_columns = itemgetter('rank', 'words')
         words = []
-        r = []
+        res = []
         with open('wordRank.csv', 'r') as csvfile:
             reader = csv.DictReader(csvfile.readlines()[0:])
             [words.append(get_columns(row)) for row in reader]
@@ -25,14 +26,16 @@ class Wordle_Solver:
                         flag = False
                         break
 
-                    instances = [i for i, ltr in enumerate(guess) if ltr == guess[i]]
-                    okCount=0
+                    instances = [i for i, ltr in enumerate(
+                        guess) if ltr == guess[i]]
+                    okCount = 0
                     for j in instances:
                         if clue[j] != "\"":
                             okCount += 1
-                    instances = [i for i, ltr in enumerate(word) if ltr == guess[i]]
+                    instances = [i for i, ltr in enumerate(
+                        word) if ltr == guess[i]]
                     if len(instances) > okCount:
-                        flag=False
+                        flag = False
                         break
                 elif clue[i] == " " and guess[i] != word[i]:
                     flag = False
@@ -44,10 +47,6 @@ class Wordle_Solver:
                     flag = False
                     break
             if flag:
-                r.append((rank, word))
+                res.append((rank, word))
 
-        return r
-
-# if __name__ == '__main__':
-# FOR TESTING
-# Wordle_Helper().find_words("```\"\"", "honey")
+        return res
