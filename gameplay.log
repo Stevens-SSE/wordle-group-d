@@ -1,0 +1,1688 @@
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+color
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: ['aaron']
+root - INFO - 
+actual answer:
+colin
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: ['aaron']
+root - INFO - 
+actual answer:
+tract
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['aaron', 'water', 'fluid', 'honey', 'human', 'viral']
+root - INFO - 
+actual answer:
+kinda
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: ['sales']
+root - INFO - 
+actual answer:
+peace
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'cards', 'marco', 'ranch']
+root - INFO - 
+actual answer:
+ranch
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+boxes
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['ranch', 'bones', 'lands', 'kinds', 'bands', 'sends']
+root - INFO - 
+actual answer:
+funds
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+lyric
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['honey', 'belly', 'penny', 'perry']
+root - INFO - 
+actual answer:
+perry
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+souls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['raise', 'stone']
+root - INFO - 
+actual answer:
+stone
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['raise', 'honey', 'fonts', 'bonds', 'toner', 'bonus']
+root - INFO - 
+actual answer:
+congo
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['bones', 'tones', 'nodes']
+root - INFO - 
+actual answer:
+nodes
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['bones', 'balls', 'bills']
+root - INFO - 
+actual answer:
+bills
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['bones', 'pants', 'finds', 'minds', 'winds']
+root - INFO - 
+actual answer:
+winds
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['waves', 'calls', 'pairs', 'saint', 'satin']
+root - INFO - 
+actual answer:
+satin
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['bones', 'panel', 'tuner', 'wendy']
+root - INFO - 
+actual answer:
+wendy
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+mardi
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['human', 'suits', 'built']
+root - INFO - 
+actual answer:
+built
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+heard
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: ['water']
+root - INFO - 
+actual answer:
+keith
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 4
+root - INFO - 
+win percentage: 50.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 5
+root - INFO - 
+win percentage: 60.0
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 6
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['raise', 'carey', 'three', 'breed', 'break']
+root - INFO - 
+actual answer:
+break
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - Input words: ['water', 'bones', 'lined', 'funny', 'mines', 'raise']
+root - INFO - 
+actual answer:
+hence
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['raise', 'learn', 'treat', 'bread']
+root - INFO - 
+actual answer:
+bread
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['raise', 'boats', 'loans']
+root - INFO - 
+actual answer:
+loans
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['honey', 'sales']
+root - INFO - 
+actual answer:
+sales
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['bread', 'pairs', 'sharp', 'sparc']
+root - INFO - 
+actual answer:
+sparc
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+skins
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 1, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['apple', 'sorts', 'coins', 'boots', 'tions', 'fonts']
+root - INFO - 
+actual answer:
+sound
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['raise', 'toner', 'henry']
+root - INFO - 
+actual answer:
+henry
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['clear', 'boats', 'tanks']
+root - INFO - 
+actual answer:
+tanks
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['waves', 'toner', 'inner']
+root - INFO - 
+actual answer:
+inner
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 3, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'seats', 'today']
+root - INFO - 
+actual answer:
+today
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['honey', 'seats', 'bride', 'burke']
+root - INFO - 
+actual answer:
+burke
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+maine
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['water', 'brass', 'drain', 'fraud']
+root - INFO - 
+actual answer:
+fraud
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['human', 'mines', 'monte']
+root - INFO - 
+actual answer:
+monte
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+scott
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 4
+root - INFO - 
+win percentage: 50.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 5
+root - INFO - 
+win percentage: 60.0
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 6
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 7
+root - INFO - 
+win percentage: 57.14285714285714
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 8
+root - INFO - 
+win percentage: 62.5
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 9
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 10
+root - INFO - 
+win percentage: 60.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 11
+root - INFO - 
+win percentage: 63.63636363636363
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 12
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 13
+root - INFO - 
+win percentage: 61.53846153846154
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 14
+root - INFO - 
+win percentage: 64.28571428571429
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 15
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 13
+root - INFO - 
+win percentage: 61.53846153846154
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 14
+root - INFO - 
+win percentage: 64.28571428571429
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 15
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 13
+root - INFO - 
+win percentage: 61.53846153846154
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 14
+root - INFO - 
+win percentage: 64.28571428571429
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 15
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple']
+root - INFO - 
+actual answer:
+apple
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'sorts', 'wrist']
+root - INFO - 
+actual answer:
+wrist
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'maine', 'sauce', 'taste']
+root - INFO - 
+actual answer:
+taste
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['print', 'beans', 'scene']
+root - INFO - 
+actual answer:
+scene
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'seats', 'tanks', 'tasks']
+root - INFO - 
+actual answer:
+tasks
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['apple', 'sales', 'booty', 'birth']
+root - INFO - 
+actual answer:
+birth
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['three', 'suite', 'stone', 'stage', 'steve', 'style']
+root - INFO - 
+actual answer:
+style
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 1}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 3
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['happy', 'bones', 'seats', 'tions', 'pills', 'films']
+root - INFO - 
+actual answer:
+milfs
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 1}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 4
+root - INFO - 
+win percentage: 75.0
+root - INFO - Input words: ['water', 'bears', 'trace', 'drain', 'grant', 'frank']
+root - INFO - 
+actual answer:
+frank
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 2}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 5
+root - INFO - 
+win percentage: 80.0
+root - INFO - Input words: ['raise', 'bride', 'price', 'write']
+root - INFO - 
+actual answer:
+write
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 2, 5: 0, 6: 2}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 6
+root - INFO - 
+win percentage: 83.33333333333334
+root - INFO - Input words: ['apple', 'sales', 'blair', 'clara', 'clark']
+root - INFO - 
+actual answer:
+clark
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 2, 5: 1, 6: 2}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 7
+root - INFO - 
+win percentage: 85.71428571428571
+root - INFO - Input words: ['raise', 'sales', 'saver', 'saved']
+root - INFO - 
+actual answer:
+saved
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 3, 5: 1, 6: 2}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 7
+root - INFO - 
+win percentage: 85.71428571428571
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+pitch
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 3, 5: 1, 6: 2}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 2
+root - INFO - 
+win percentage: 50.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 0
+root - INFO - 
+win percentage: 0
+root - INFO - Input words: []
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['small', 'balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 2, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 100.0
+root - INFO - Input words: ['balls']
+root - INFO - 
+actual answer:
+balls
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 1
+root - INFO - 
+win percentage: 0.0
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 13
+root - INFO - 
+win percentage: 61.53846153846154
+root - INFO - Input words: ['stats', 'human', 'viral', 'along', 'among', 'small']
+root - INFO - 
+actual answer:
+honey
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 14
+root - INFO - 
+win percentage: 64.28571428571429
+root - INFO - Input words: ['stats', 'human', 'viral']
+root - INFO - 
+actual answer:
+viral
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0}
+root - INFO - 
+****************************************************************
+
+root - INFO - Total games played: 15
+root - INFO - 
+win percentage: 66.66666666666666
+root - INFO - Input words: ['along', 'among', 'small']
+root - INFO - 
+actual answer:
+small
+root - INFO - 
+number of games won is: 
+
+root - INFO - {1: 0, 2: 0, 3: 2, 4: 0, 5: 0, 6: 0}
