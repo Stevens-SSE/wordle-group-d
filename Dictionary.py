@@ -1,6 +1,8 @@
 import random
 from typing import List, Tuple
 
+# Class to read a file containing words and sort out 5 letter words and randomly choosing new word everytime for a new game
+
 
 class Dictionary:
     def __init__(self) -> None:
@@ -11,11 +13,11 @@ class Dictionary:
         return str(self.finalWord)
 
     # Getter
-    def getter(self):
+    def getter(self) -> Tuple[List, str]:
         return self.myWordList, self.finalWord
 
     # Setter
-    def setter(self, inputWordList, inputfinalWord):
+    def setter(self, inputWordList, inputfinalWord) -> None:
         self.myWordList = inputWordList
         self.finalWord = inputfinalWord
 

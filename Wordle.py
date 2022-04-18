@@ -219,6 +219,7 @@ class Wordle:
             f.write(f"Win % : 0\n\n")
 
 
+# Entry point of the game. Starting a game and using Helper module to play the game
 if __name__ == "__main__":
     game = Wordle()
     game.main()

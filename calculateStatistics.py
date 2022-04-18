@@ -6,6 +6,7 @@ from typing import Dict, List, Tuple
 
 class CalculateStatistics:
 
+    # to calculate the frequency of every character in every position
     def calculateFrequencyOfLetters(self) -> None:
         try:
             f = open("new_words.txt", "r")
