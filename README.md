@@ -1,1 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7540045&assignment_repo_type=AssignmentRepo)
+This is a project that contains a python implementation of the famous game known as "Wordle". The game involves guessing a 5 letter word in 6 tries.
+
+Note - Test.py contains Unit Test cases. To run you need to install "pytest" first by running "pip install pytest" on the terminal. Then run command "pytest Test.py" on the terminal.
