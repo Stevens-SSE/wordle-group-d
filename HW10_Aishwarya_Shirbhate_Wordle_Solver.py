@@ -5,7 +5,7 @@ from operator import itemgetter
 
 
 class Wordle_Solver:
-    def __init__(self, words):
+    def __init__(self, words):                    #self function for taking in words
         self.words = words
 
     def find_words(self, clue, guess):
