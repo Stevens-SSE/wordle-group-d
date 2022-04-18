@@ -877,7 +877,6 @@ picks
 piece
 pills
 pilot
-pipes
 pitch
 pixel
 pizza
